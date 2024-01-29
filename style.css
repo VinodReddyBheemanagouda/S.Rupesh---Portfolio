@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background-div {
+  width: 100%; 
+  height: 900px;
+  background-image: url('Profile\ pic.jpg');
+  background-size: cover; 
+  background-position: left; 
+  background-repeat: no-repeat;
+}
+.stl-name{
+  font-family: lato;
+  font-size: 6em;
+  padding-top: 170px;
+  padding-left: 60px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dsgn{
+  color:#8c8a8a;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: .15em;
+  line-height: 0.5em;
+  display: inline-block;
+  margin-left: 220px;
+  margin-top: 0px;
+}
+.quote{
+  float: right;
+  width: 480px;
+  height: 200px;
+  margin-top: -50px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: -webkit-linear-gradient(#949191, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ct-ss{
+  font-style: italic;
+  font-weight: bold;
+}
+.list-group-item{
+  text-align: justify !important;
+}
